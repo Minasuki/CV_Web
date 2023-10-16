@@ -4,7 +4,7 @@ import javascript from "../../img/javascript.png";
 import html from "../../img/html.png";
 import react from "../../img/react.png";
 import sql from "../../img/sql.png";
-import git from '../../img/git.png'
+import git from '../../img/github.png'
 
 const itemData = [
   {

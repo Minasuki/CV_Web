@@ -8,6 +8,7 @@ import HacercaDeMi from './components/HacercaDeMi/HacercaDeMi'
 import Hero from "./components/Hero/Hero";
 import PieDePagina from "./components/PieDePagina/PieDePagina";
 import Portafolio from "./components/Portafolio/Portafolio";
+import Skills from "./components/Skills/Skills";
 
 function App() {
   const [mode, setMode] = React.useState("light");
@@ -55,7 +56,7 @@ function App() {
           >
             <Hero />
             <Portafolio />
-            {/* <Skills /> */}
+            <Skills />
             <HacercaDeMi />
             <ContactoValido />
             <PieDePagina />
