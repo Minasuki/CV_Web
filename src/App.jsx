@@ -1,9 +1,11 @@
 import * as React from "react";
-import { Box, CssBaseline, ThemeProvider, createTheme } from "@mui/material";
+import { Box, CssBaseline } from "@mui/material";
+import { ThemeProvider, createTheme } from "@mui/material/styles";
 import { blueGrey } from '@mui/material/colors';
 import ContactoValido from './components/Contacto/ContactoValido';
 import ColorModeContext from './components/Theme/ColorMode';
 import HacercaDeMi from './components/HacercaDeMi/HacercaDeMi'
+import Hero from "./components/Hero/Hero";
 
 function App() {
   const [mode, setMode] = React.useState("light");
@@ -36,6 +38,7 @@ function App() {
       }),
     [mode]
   );
+
   return (
     <>
      <ColorModeContext.Provider value={colorMode}>
@@ -48,7 +51,7 @@ function App() {
               alignItems: "center",
             }}
           >
-            {/* <Hero /> */}
+            <Hero />
             {/* <Portafolio /> */}
             {/* <Skills /> */}
             <HacercaDeMi />
