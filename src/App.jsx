@@ -3,6 +3,7 @@ import { Box, CssBaseline, ThemeProvider, createTheme } from "@mui/material";
 import { blueGrey } from '@mui/material/colors';
 import ContactoValido from './components/Contacto/ContactoValido';
 import ColorModeContext from './components/Theme/ColorMode';
+import HacercaDeMi from './components/HacercaDeMi/HacercaDeMi'
 
 function App() {
   const [mode, setMode] = React.useState("light");
@@ -47,10 +48,10 @@ function App() {
               alignItems: "center",
             }}
           >
-            {/* <Hero />
-            <Portafolio />
-            <Skills />
-            <HacercaDeMi /> */}
+            {/* <Hero /> */}
+            {/* <Portafolio /> */}
+            {/* <Skills /> */}
+            <HacercaDeMi />
             <ContactoValido />
             {/* <PieDePagina /> */}
           </Box>
