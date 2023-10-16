@@ -6,6 +6,8 @@ import ContactoValido from './components/Contacto/ContactoValido';
 import ColorModeContext from './components/Theme/ColorMode';
 import HacercaDeMi from './components/HacercaDeMi/HacercaDeMi'
 import Hero from "./components/Hero/Hero";
+import PieDePagina from "./components/PieDePagina/PieDePagina";
+import Portafolio from "./components/Portafolio/Portafolio";
 
 function App() {
   const [mode, setMode] = React.useState("light");
@@ -52,11 +54,11 @@ function App() {
             }}
           >
             <Hero />
-            {/* <Portafolio /> */}
+            <Portafolio />
             {/* <Skills /> */}
             <HacercaDeMi />
             <ContactoValido />
-            {/* <PieDePagina /> */}
+            <PieDePagina />
           </Box>
         </ThemeProvider>
       </ColorModeContext.Provider>
