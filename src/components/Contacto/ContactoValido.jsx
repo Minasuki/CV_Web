@@ -11,7 +11,10 @@ function SlideTransition(props) {
 }
 
 const ContactoValido = () => {
-  // const service = process.env.SERVICE;
+  const apiKey = import.meta.env.VITE_SOME_KEY;
+  const apiTemplate = import.meta.env.VITE_SOME_TEMPLATE;
+  const keyPrivada = import.meta.env.VITE_SOME_KEY_PRIVADA;
+
   const form = useRef();
   const [state, setState] = useState({
     open: false,
@@ -76,12 +79,7 @@ const ContactoValido = () => {
           onSubmit={(valores, { resetForm }) => {
             resetForm();
             emailjs
-              .sendForm(
-                // service,
-                "template_55vgu5n",
-                form.current,
-                "rTsjZZ6lPG9qpekeJ"
-              )
+              .sendForm(apiKey, apiTemplate, form.current, keyPrivada)
               .then(
                 (result) => {
                   console.log(result.text);
