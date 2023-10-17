@@ -1,6 +1,6 @@
 export const principal = {
     display: "flex",
-    width: "10%",
+    width: "15%",
     alignItems: "center",
     justifyContent: "center",
     borderRadius: 1,

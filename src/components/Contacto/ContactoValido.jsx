@@ -11,6 +11,7 @@ function SlideTransition(props) {
 }
 
 const ContactoValido = () => {
+  // const service = process.env.SERVICE;
   const form = useRef();
   const [state, setState] = useState({
     open: false,
@@ -76,7 +77,7 @@ const ContactoValido = () => {
             resetForm();
             emailjs
               .sendForm(
-                "service_k0au51r",
+                // service,
                 "template_55vgu5n",
                 form.current,
                 "rTsjZZ6lPG9qpekeJ"
