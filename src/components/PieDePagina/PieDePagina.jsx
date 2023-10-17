@@ -6,7 +6,6 @@ import {
   boton,
   cardImg,
   cardSVG,
-  // colorBoton,
   imagen,
   principal,
   texto,

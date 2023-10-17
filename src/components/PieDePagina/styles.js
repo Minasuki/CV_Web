@@ -7,6 +7,11 @@ export const principal = {
   width: "100%",
   background: "linear-gradient(to right, black, #333)",
   justifyContent: "space-around",
+
+  "@media(max-width: 540px)": {
+    alignItems: "center",
+    flexDirection: "column",
+  },
 };
 
 export const cardImg = {
@@ -30,8 +35,8 @@ export const imagen = {
   },
 
   "@media(max-width: 540px)": {
-    width: "35%",
-    padding: 0.5,
+    width: "50%",
+    padding: 2,
   },
 };
 
@@ -52,6 +57,11 @@ export const boton = {
   display: "flex",
   alignItems: "flex-end",
   justifyContent: "center",
+
+  "@media(max-width: 540px)": {
+    width: "50%",
+    padding: 0,
+  },
 };
 
 export const ColorButton = styled(Button)({
@@ -66,6 +76,21 @@ export const ColorButton = styled(Button)({
     boxShadow: `0 0.5em 0.5em -0.4em ${amber[300]}`,
     transform: "translateY(-0.25em)",
   },
+
+  "@media(max-width: 1280px)": {
+    width: "100%",
+    height: "40%",
+    fontSize: 16,
+  },
+
+  "@media(max-width: 768px)": {
+    fontSize: 12,
+  },
+
+  "@media(max-width: 540px)": {
+    height: "20%",
+    width: "70%",
+  },
 });
 
 export const cardSVG = {
@@ -76,12 +101,3 @@ export const cardSVG = {
     padding: "0 4px",
   },
 };
-
-
-// export const colorBoton = {
-//   "@media(max-width: 1024px)": {
-//     width: "100%",
-//     height: "40%",
-//     fontSize: 16,
-//   },
-// };
