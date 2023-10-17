@@ -33,4 +33,8 @@ export const principal = {
     "@media(max-width: 540px)": {
       width: 120,
     },
+
+    "@media(max-width: 280px)": {
+      width: 90,
+    },
   };

@@ -49,6 +49,10 @@ export const texto = {
   flexDirection: "column",
   gap: "7px",
   alignItems: "center",
+
+  "@media(max-width: 412px)": {
+    width: "100%",
+  },
 };
 
 export const boton = {
@@ -59,8 +63,12 @@ export const boton = {
   justifyContent: "center",
 
   "@media(max-width: 540px)": {
-    width: "50%",
+    width: "60%",
     padding: 0,
+  },
+
+  "@media(max-width: 412px)": {
+    width: "100%",
   },
 };
 
@@ -90,6 +98,14 @@ export const ColorButton = styled(Button)({
   "@media(max-width: 540px)": {
     height: "20%",
     width: "70%",
+  },
+
+  "@media(max-width: 412px)": {
+    width: "50%",
+  },
+
+  "@media(max-width: 280px)": {
+    width: "55%",
   },
 });
 

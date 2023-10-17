@@ -29,6 +29,10 @@ export const principal = {
     "@media(max-width: 540px)": {
       fontSize: "5.5rem",
     },
+
+    "@media(max-width: 280px)": {
+      fontSize: "4rem",
+    },
   };
   
   export const tituloMedio = {
@@ -37,6 +41,10 @@ export const principal = {
     "@media(max-width: 540px)": {
       fontSize: "2.5rem",
     },
+
+    "@media(max-width: 280px)": {
+      fontSize: "1.5rem",
+    },
   };
   
   export const tituloChico = {
@@ -44,5 +52,9 @@ export const principal = {
   
     "@media(max-width: 540px)": {
       fontSize: "1rem",
+    },
+
+    "@media(max-width: 280px)": {
+      fontSize: "0.9rem",
     },
   };

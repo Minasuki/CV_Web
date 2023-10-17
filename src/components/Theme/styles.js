@@ -15,4 +15,8 @@ export const principal = {
     "@media(max-width: 540px)": {
       fontSize: "x-small",
     },
+
+    "@media(max-width: 414px)": {
+      padding:0,
+    },
   };
