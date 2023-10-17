@@ -1,8 +1,16 @@
-# React + Vite
+# Mi Currículum en Línea
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+¡Bienvenido a mi página web de Currículum en línea! Aquí puedes conocer más sobre mi experiencia, habilidades y logros profesionales en un solo lugar. Esta página web se ha creado con el objetivo de proporcionarte una visión detallada de mi perfil y mi trayectoria en el mundo del desarrollo web.
 
-Currently, two official plugins are available:
+## Características Destacadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Información Detallada:** Encontrarás información completa sobre mi experiencia laboral, educación, proyectos anteriores y más.
+
+- **Portafolio:** Puedes explorar mis proyectos anteriores y obtener información detallada sobre cada uno de ellos.
+
+- **Habilidades:** Descubre mis habilidades técnicas y profesionales, desde programación hasta diseño web y más.
+
+- **Contacto:** Si deseas ponerte en contacto conmigo, puedes hacerlo fácilmente a través de los datos de contacto proporcionados en la página.
+
+
+¡Gracias por visitar mi página web y por tu interés en conocer más sobre mí y mi trayectoria profesional!
