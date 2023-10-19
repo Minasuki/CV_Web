@@ -10,9 +10,18 @@ import {
   principal,
   texto,
 } from "./styles";
-import dowload from '../../img/dowload.svg'
+import dowload from "../../img/dowload.svg";
+import cv from "./CV.pdf";
 
 const PieDePagina = () => {
+  const pdfFileName = cv;
+
+  const handleDownloadPDF = () => {
+    const a = document.createElement("a");
+    a.href = pdfFileName;
+    a.download = 'CV Baez Perez';
+    a.click();
+  };
   return (
     <>
       <Box sx={principal}>
@@ -28,7 +37,15 @@ const PieDePagina = () => {
           </Typography>
         </Box>
         <Box sx={boton}>
-          <ColorButton>Descargar CV  <CardMedia component="img" image={dowload} alt="descargar" sx={cardSVG} /></ColorButton>
+          <ColorButton onClick={handleDownloadPDF}>
+            Descargar CV{" "}
+            <CardMedia
+              component="img"
+              image={dowload}
+              alt="descargar"
+              sx={cardSVG}
+            />
+          </ColorButton>
         </Box>
       </Box>
     </>
