@@ -4,7 +4,7 @@ export const principal = {
     alignItems: "center",
     justifyContent: "center",
     borderRadius: 1,
-    p: 3,
+    p: 2.5,
     color: "white",
   
     "@media(max-width: 1024px)": {

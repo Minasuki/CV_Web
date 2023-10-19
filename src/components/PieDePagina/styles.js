@@ -75,7 +75,7 @@ export const boton = {
 export const ColorButton = styled(Button)({
   color: "white",
   border: `2px solid ${amber[700]}`,
-  fontSize: 18,
+  fontSize: 17,
   width: "50%",
   height: "25%",
 
