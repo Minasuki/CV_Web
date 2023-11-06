@@ -1,6 +1,7 @@
 import EDT from "../../img/EDT.png";
 import greek from "../../img/AluraGreek.png";
 import playFood from "../../img/playFood.png";
+import ClearSky from '../../img/ClearSky.png'
 
 const proyectos = {
   proyect1: {
@@ -24,8 +25,16 @@ const proyectos = {
     description:
       '"¡Bienvenido a este rincón culinario en línea, el destino definitivo para los amantes de la buena comida! Esta página web de recetas de comida te lleva en un viaje gastronómico con una amplia gama de recetas deliciosas para todas las ocasiones.',
     img: playFood,
-    git: "https://github.com/Minasuki/PlayFood",
+    git: "https://github.com/Minasuki/PlayFood/",
     pag: "https://minasuki.github.io/PlayFood/",
+  },
+  proyect4: {
+    name: "ClearSky",
+    description:
+      'ClearSky es una aplicación que te brinda información actualizada sobre el clima de cualquier ciudad del mundo. Con un diseño intuitivo y fácil de usar, ClearSky te permite obtener datos precisos sobre la temperatura, condiciones climáticas, humedad, velocidad del viento y más.',
+    img: ClearSky,
+    git: "https://github.com/Minasuki/clima/",
+    pag: "https://minasuki.github.io/clima/",
   },
 };
 
